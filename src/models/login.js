@@ -6,7 +6,7 @@ const login = new mongoose.Schema({
 })
 
 login.statics.findByCredentials= async(username,password)=>{
-const user = await User.findOne({username})
+const user = await Usergit.findOne({username})
 
 if (!user){
   throw new Error ('Unable to login')
