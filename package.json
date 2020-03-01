@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "init": "^0.1.2",
+    "mongoose": "^5.8.11",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+      "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sameh1122/login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sameh1122/login/issues"
+  },
+  "homepage": "https://github.com/Sameh1122/login#readme"
+}
